@@ -1,24 +1,19 @@
 import './App.css';
 import Header from './components/Header.js';
+import Footer from './components/Footer.js';
+import Body from './components/Body.js';
 
 function App() {
   return (
     <div className="App">
-      <div className="App-header">
+      <div>
         <Header />
       </div>
-      <div className="App-body">
-        <div className="App-content-1">
-          <div className="Content-title">
-            <h2>Content Title</h2>
-          </div>
-          <div className="Content-body">
-            <h3>Content Body</h3>
-          </div>
-        </div>
+      <div>
+        <Body />
       </div>
-      <div className="App-footer">
-        <h1>Footer</h1>
+      <div>
+        <Footer />
       </div>
     </div>
   );
