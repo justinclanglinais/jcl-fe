@@ -2,6 +2,7 @@ import React from 'react'
 import About from '../components/content/About.js'
 import Projects from '../components/content/Projects.js'
 import Bjj from '../components/content/Bjj.js'
+import Contact from '../components/content/Contact.js'
 
 export default class Body extends React.Component {
     render () {
@@ -15,6 +16,9 @@ export default class Body extends React.Component {
                 </div>
                 <div>
                     <Bjj />
+                </div>
+                <div>
+                    <Contact />
                 </div>
             </div>
         )
