@@ -24,11 +24,14 @@
   color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Content-container {
+  display: flex;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.Content-title {
+  flex: 0 0 25%;
+  padding-left: 8px;
+  padding-right: 8px;
 }
